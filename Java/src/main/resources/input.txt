@@ -1,0 +1,12 @@
+Январь [yan-VAR’] January
+Февраль [fye-VRAL’] February
+Март [MART] March
+Апрель [ap-RYEL’] April
+Май [MAY] May
+Июнь [ee-YOON’] June
+Июль [ee-YOOL’] July
+Август [AV-goost] August
+Сентябрь [syen-TYABR’] September
+Октябрь [ok-TYABR’] October
+Ноябрь [no-YABR’] November
+Декабрь [dee-KABR’] December
