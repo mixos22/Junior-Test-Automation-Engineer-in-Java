@@ -1,5 +1,7 @@
 package com.epam.automation.javaClasses;
 
+import java.util.Objects;
+
 class Customer {
     private final int ID;
     private static int latestID;
@@ -87,5 +89,24 @@ class Customer {
 
     public String getAccountNumber() {
         return accountNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return ID == customer.ID &&
+                Objects.equals(address, customer.address) &&
+                Objects.equals(name, customer.name) &&
+                Objects.equals(surname, customer.surname) &&
+                Objects.equals(middleName, customer.middleName) &&
+                Objects.equals(creditCardNumber, customer.creditCardNumber) &&
+                Objects.equals(accountNumber, customer.accountNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ID, address, name, surname, middleName, creditCardNumber, accountNumber);
     }
 }

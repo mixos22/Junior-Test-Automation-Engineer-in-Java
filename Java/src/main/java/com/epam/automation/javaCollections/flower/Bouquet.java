@@ -25,14 +25,14 @@ public class Bouquet {
     }
 
     public void findFlower(int o1, int o2) {
-        int flag = 0;
+        boolean flowerFound = false;
         for (int i = 0; i < flowers.size(); i++) {
             if ((flowers.get(i).getStemLength() >= o1) && (flowers.get(i).getStemLength() <= o2)) {
                 System.out.println(flowers.get(i).toString());
-                flag = 1;
+                flowerFound = true;
             }
         }
-        if (flag == 0) {
+        if (!flowerFound) {
             System.out.println("There is no such flower");
         }
     }
