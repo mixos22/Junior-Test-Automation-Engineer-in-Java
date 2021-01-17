@@ -1,12 +1,14 @@
-import planes.ExperimentalPlane;
-import models.ClassificationLevels;
-import models.ExperimentalTypes;
-import models.MilitaryType;
+import com.epam.cleancode.Airport;
+import com.epam.cleancode.planes.ExperimentalPlane;
+import com.epam.cleancode.models.ClassificationLevels;
+import com.epam.cleancode.models.ExperimentalTypes;
+import com.epam.cleancode.models.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import planes.MilitaryPlane;
-import planes.PassengerPlane;
-import planes.Plane;
+import com.epam.cleancode.planes.MilitaryPlane;
+import com.epam.cleancode.planes.PassengerPlane;
+import com.epam.cleancode.planes.Plane;
+
 import java.util.Arrays;
 import java.util.List;
 

@@ -1,8 +1,10 @@
-import planes.ExperimentalPlane;
-import models.MilitaryType;
-import planes.MilitaryPlane;
-import planes.PassengerPlane;
-import planes.Plane;
+package com.epam.cleancode;
+
+import com.epam.cleancode.planes.ExperimentalPlane;
+import com.epam.cleancode.models.MilitaryType;
+import com.epam.cleancode.planes.MilitaryPlane;
+import com.epam.cleancode.planes.PassengerPlane;
+import com.epam.cleancode.planes.Plane;
 
 import java.util.*;
 
