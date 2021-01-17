@@ -3,7 +3,7 @@ package com.epam.automation.javaclasses;
 import java.util.Objects;
 
 class Customer {
-    private final int id;
+    private int id;
     private static int latestID;
     private String address;
     private String name;
